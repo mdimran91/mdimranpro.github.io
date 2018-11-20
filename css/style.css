@@ -1,0 +1,559 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+/* Header portion */
+
+.container_header{
+  background-color: #098cc4;
+  width: 100%;
+}
+.container_content{
+  margin: 0 auto;
+  width: 420px;
+  position: relative;
+}
+      /* logo portion */
+.logo{
+  padding-top: 7px;
+  float: left;
+}
+.logomb{
+  display: block;
+}
+.logopc{
+display: none;
+}
+
+
+.logoname{
+  color: white;
+}
+
+.logoname a{
+  text-decoration: none;
+  color: white;
+}
+
+.logoname h1{
+  font-size: 24px;
+  padding-top: 20px;
+  font-weight: normal;
+}
+
+.logoname h2{
+  font-weight: normal;
+  padding-top:0px;
+  font-size: 20px;
+}
+
+
+/* Navigation Links*/
+
+.nav_main a:hover{
+  opacity: 0.6;
+
+}
+
+.nav1_main{
+  display: none;
+}
+
+.text_box{
+  display: none;
+}
+
+.list_main_nav{
+  padding: 20px 10px 37px 13px;
+  width: 100%;
+  margin: 0px auto;
+  }
+
+.list_main_nav li{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  list-style:none;
+  float: left;
+}
+
+.list_main_nav a{
+  color: white;
+  text-decoration:none;
+}
+
+.imagepc{
+  display: none;
+}
+
+.container{
+  margin: 0 auto;
+  width: 95%;
+}
+
+.main_slide img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.main_slide{
+  position: relative;
+}
+
+.hero_text{
+  position: absolute;
+  top: 50%;
+  Left: 50%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  transform: translate(-50%,-50%);
+}
+.hero_text h2{
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  line-height: 36px;
+}
+.hero_text h4{
+  font-size: 12px;
+  padding: 5px;
+  letter-spacing: 3px;
+  line-height: 20px;
+
+}
+
+/* Programes and Admission */
+
+.for_pc{
+  display: none;
+}
+.container_col{
+  margin: 0 auto;
+  width: 90%;
+}
+.container_three_column ul{
+  overflow: hidden;
+}
+.container_three_column li{
+  list-style: none;
+  text-align: center;
+  color: white;
+  padding-bottom: 30px;
+}
+.container_three_column img{
+  width: 100%;
+}
+.ugcontent{
+  background-color: #098cc4;
+}
+.ugcontent h3{
+  padding-top: 10px;
+  font-weight: normal;
+  font-size: 16px;
+  font-weight: normal;
+}
+.ugcontent p{
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.pgcontent{
+  background-color: #ca3d7f;
+}
+.pgcontent h3{
+  padding-top: 10px;
+  font-weight: normal;
+}
+.pgcontent p{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+.research{
+  width: 420px;
+  overflow:hidden;
+  margin: 0 auto;
+}
+
+.research li{
+  margin-top: 10px;
+  margin-left: 9px;
+  list-style: none;
+  float: left;
+  background-color: #098bc4;
+}
+.research_content{
+  text-align: center;
+  color: white;
+  margin: 0 auto;
+  width: 200px;
+  height: 380px;
+
+}
+
+.research_content h3{
+  font-weight: normal;
+  padding-top: 10px;
+}
+.research_content p{
+  font-weight: lighter;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+}
+.research_content img{
+  height: 205px;
+  width: 200px;
+}
+/* Events */
+.container_event{
+  margin: 0 auto;
+  width: 420px;
+}
+.eve_img{
+  float: left;
+  padding-right: 10px;
+}
+.eve_img img{
+  width: 150px;
+  height: 150px;
+}
+.icon{
+  padding-right: 10px;
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+.eve_content{
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.eve_content a{
+  float: right;
+  text-decoration: none;
+  color:  #098bc4;
+}
+.eve_content a:hover{
+  color: #f38400;
+}
+.eve_content h4{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #098bc4;
+  font-weight: normal;
+}
+.eve_bold{
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/*News*/
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.slideshow-container img{
+  width: 100%;
+}
+
+.news_pc{
+  display: none;
+}
+.news_container{
+  width: 100%;
+  position: relative;
+}
+.news_container img{
+  width: 100%;
+}
+.text{
+  position:absolute;
+  top: 35%;
+  left: 45%;
+}
+.text h3{
+  color: white;
+  font-weight: normal;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.text p{
+  width: 220px;
+  padding-right: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  text-align: justify;
+}
+.text a{
+  padding-top: 10px;
+  float:right;
+  color: #f38400;
+  text-decoration: none;
+}
+
+.mobile_pic{
+  display: block;
+}
+.pc_pic{
+  display:none ;
+}
+
+
+
+/* Footer */
+.footer_bg{
+  margin: 0 auto;
+  background-color: #098bc4;
+}
+.image_vision {
+  display: none;
+}
+.wrapper{
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+.wrapper h4{
+  color: black;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.wrapper p{
+  font-weight:normal;
+  letter-spacing: 2px;
+}
+.social_icons{
+  text-align: center;
+}
+
+.social_icons h4{
+  font-size: 14px;
+  color: black;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.social_icons img{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+.social_icons img:hover{
+  opacity: 0.6;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  height: 30px;
+}
+.copyright p{
+  padding-top: 10px;
+}
+
+
+/* Head Line */
+.head_tag h2{
+  margin-top: 0px;
+  margin-bottom: 30px;
+  background-color: #098bc4;
+  font-size: 20px;
+  color:#098bc4;
+  padding-left: calc(50% - 380px /2);
+  font-weight: normal;
+  letter-spacing: 1px;
+}
+.head_tag span{
+  background-color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#smoothBtn{
+  display: none;
+}
+
+#smoothBtn{
+  display: block;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  filter: opacity(50%);
+}
+
+#smoothBtn:hover{
+  filter: opacity(100%);
+  cursor: pointer;
+
+}
+
+#smoothBtn img{
+  height: 50px;
+  width: 50px;
+  opacity: 0.6;
+}
+
+#smoothBtn button:hover{
+  opacity: 1;#smoothBtn{
+    display: none;
+  }
+
+  #smoothBtn{
+    display: block;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    filter: opacity(50%);
+  }
+
+  #smoothBtn:hover{
+    filter: opacity(100%);
+  }
+
+  #smoothBtn button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: orange;
+    opacity: 0.6;
+    color: white;
+    border-style: none;
+  }
+
+  #smoothBtn button:hover{
+    opacity: 1;
+    font-weight: bold;
+  }
+
+  font-weight: bold;
+}
+
+
+/* Buttons*/
+
+/* Contact Buttons*/
+
+.button_contact {
+  position: absolute;
+  top: 35px;
+  left: 300px;
+}
+
+.button_contact button {
+  border-style: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #f38400;
+  letter-spacing: 1px;
+}
+
+.button_contact button:hover{
+  opacity: 0.8;
+}
+/* Read More Buttons */
+.but_read:hover{
+   background-color: #f38400;
+
+}
+.but_read{
+  letter-spacing: 2px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  height: 30px;
+  width: 116px;
+  color: white;
+  font-size: 12px;
+  background: transparent;
+  border-style: solid;
+  font-weight: lighter;
+}
+
+/* Admission Buttons*/
+
+.but_admi{
+  letter-spacing: 2px;
+  border-radius: 10px;
+  width: 150px;
+  height: 40px;
+  background-color: #f38400;
+  border-style: none;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.but_admi:hover{
+  opacity: 0.6;
+}
+
+
+/* View All Buttons */
+
+.view_content{
+  width: 116px;
+  margin: 0 auto;
+}
+.but_view:hover{
+  opacity: 0.6;
+}
+
+.but_view{
+  margin: 0 auto;
+  border-radius: 10px;
+  border-style: none;
+  height: 30px;
+  width: 116px;
+  background-color: #f38400;
+  color: white;
+  font-size: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+/*Button Discover*/
+.button_discover button{
+  margin: 0 auto;
+  border-radius: 10px;
+  border-style: none;
+  height: 40px;
+  width: 165px;
+  background-color: #f38400;
+  letter-spacing: 2px;
+  color: white;
+  font-size: 12px;
+  margin-top: 60px;
+}
+.button_discover:hover{
+  opacity: 0.6;
+  cursor: pointer;
+}
