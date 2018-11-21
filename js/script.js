@@ -1,5 +1,4 @@
 
-                <script>
 
                 var slideIndex = 0;
                 runSlides();
@@ -65,5 +64,3 @@
                         document.getElementById("smoothBtn").style.display = "none";
                     }
                 }
-
-                </script>

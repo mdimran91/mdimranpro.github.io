@@ -96,6 +96,7 @@ body {
 .textboxsearch {
   width: 265px;
   border-radius: 10px;
+  padding-left: 7px;
 }
 .list_main1_nav li {
   float: left;
@@ -426,7 +427,6 @@ body {
   font-size: 12px;
   color: white;
   background-color: black;
-  height: 40px;
 }
 .copyright p {
   padding-top: 15px;
@@ -494,11 +494,11 @@ body {
   background-color: #f38400;
   border-style: none;
   color: white;
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 20px;
 }
 .but_admi:hover {
-  opacity: 0.6;
+  opacity: 0.9;
   cursor: pointer;
 }
 /* View All Buttons */
@@ -508,7 +508,7 @@ body {
   position: relative;
 }
 .but_view:hover {
-  opacity: 0.6;
+  opacity: 0.8;
   cursor: pointer;
 }
 .but_view {
@@ -532,11 +532,11 @@ body {
   background-color: #f38400;
   color: white;
   font-size: 18px;
+  letter-spacing: 3px;
 }
 .button_discover button:hover {
-  opacity: 0.6;
+  opacity: 0.9;
   cursor: pointer;
-  letter-spacing: 3px;
 }
 .butt_top {
   border-radius: 80px;
@@ -625,5 +625,9 @@ img {
   }
 }
 .image_uc {
+  width: 1166px;
   margin: 0 auto;
+}
+.image_uc img{
+  width: 100%;
 }
