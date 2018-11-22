@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <script src=”//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js”></script> -->
     <title>Academic University</title>
-    <script src="JS/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
   </head>
   <body  id="toTop">
     <!-- Header Section-->
@@ -376,26 +376,26 @@
       var slideIndex = 0;
       runSlides();
 
-      function runSlides() {
+      function runSlides(){
         var i;
         var slides = document.getElementsByClassName("main_slide");
-        var dots = document.getElementsByClassName("dot");
+      //  var dots = document.getElementsByClassName("dot");
         for (i = 0; i < slides.length; i++) {
           slides[i].style.display = "none";
         }
         slideIndex++;
         if (slideIndex > slides.length) {slideIndex = 1}
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
+        //for (i = 0; i < dots.length; i++) {
+        //  dots[i].className = dots[i].className.replace(" active", "");
+        //}
         slides[slideIndex-1].style.display = "block";
-        dots[slideIndex-1].className += " active";
+        //dots[slideIndex-1].className += " active";
         setTimeout(runSlides, 3000); // Change image every 2 seconds
       }
 
       var slideIndex2 = 0;
       showSlides();
-      function showSlides() {
+      function showSlides(){
         var i;
         var slides = document.getElementsByClassName("moSlides");
         var dots = document.getElementsByClassName("dot");
