@@ -139,7 +139,7 @@ display: none;
 }
 .container_col{
   margin: 0 auto;
-  width: 90%;
+  width: 420px;
 }
 .container_three_column ul{
   overflow: hidden;
@@ -268,7 +268,6 @@ display: none;
   width: 100%;
   position: relative;
   margin: auto;
-  margin-bottom: 30px;
 }
 .slideshow-container img{
   width: 100%;
