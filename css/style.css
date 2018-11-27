@@ -15,9 +15,10 @@ body{
   background-color: #098cc4;
   width: 100%;
 }
+
 .container_content{
   margin: 0 auto;
-  width: 420px;
+  width: 96%;
   position: relative;
 }
       /* logo portion */
@@ -35,6 +36,7 @@ display: none;
 
 .logoname{
   color: white;
+  float:left;
 }
 
 .logoname a{
@@ -139,7 +141,7 @@ display: none;
 }
 .container_col{
   margin: 0 auto;
-  width: 420px;
+  width: 96%;
 }
 .container_three_column ul{
   overflow: hidden;
@@ -184,25 +186,24 @@ display: none;
 }
 
 .research{
-  width: 420px;
+  width: 96%;
   overflow:hidden;
   margin: 0 auto;
 }
 
 .research li{
   margin-top: 10px;
-  margin-left: 9px;
   list-style: none;
   float: left;
   background-color: #098bc4;
+  width: 100%;
 }
+
 .research_content{
   text-align: center;
   color: white;
   margin: 0 auto;
-  width: 200px;
-  height: 380px;
-
+  width: 100%;
 }
 
 .research_content h3{
@@ -217,13 +218,12 @@ display: none;
   padding-top: 10px;
 }
 .research_content img{
-  height: 205px;
-  width: 200px;
+  width: 100%;
 }
 /* Events */
 .container_event{
   margin: 0 auto;
-  width: 420px;
+  width: 96%;
 }
 .eve_img{
   float: left;
@@ -285,7 +285,7 @@ display: none;
 }
 .text{
   position:absolute;
-  top: 35%;
+  top: 20%;
   left: 45%;
 }
 .text h3{
@@ -296,7 +296,7 @@ display: none;
 }
 
 .text p{
-  width: 220px;
+  width: 70%;
   padding-right: 20px;
   color: white;
   font-size: 14px;
@@ -449,16 +449,14 @@ display: none;
 
   font-weight: bold;
 }
-
-
 /* Buttons*/
 
 /* Contact Buttons*/
 
 .button_contact {
-  position: absolute;
-  top: 35px;
-  left: 300px;
+  float: right;
+  margin-right:4%;
+  margin-top: 30px;
 }
 
 .button_contact button {
