@@ -232,6 +232,7 @@ body {
   float: left;
   background-color: #098bc4;
   margin-bottom: 30px;
+  width: 280px;
 }
 .research_content {
   text-align: center;
@@ -568,6 +569,8 @@ img {
   position: relative;
   margin: auto;
   margin-bottom: 30px;
+  overflow: hidden;
+  max-height: 600px;
 }
 .slideshow-container img {
   width: 100%;

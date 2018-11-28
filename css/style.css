@@ -7,6 +7,7 @@ body{
   width: 100%;
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
+  box-sizing: border-box;
 }
 
 /* Header portion */
@@ -14,12 +15,15 @@ body{
 .container_header{
   background-color: #098cc4;
   width: 100%;
+  overflow: hidden;
 }
 
 .container_content{
   margin: 0 auto;
-  width: 96%;
+  width: 100%;
   position: relative;
+box-sizing: border-box;
+padding: 0 20px;
 }
       /* logo portion */
 .logo{
@@ -73,14 +77,14 @@ display: none;
 }
 
 .list_main_nav{
-  padding: 20px 10px 37px 13px;
-  width: 100%;
   margin: 0px auto;
+  padding-top: 110px;
+  text-align: center;
+  display: block;
   }
 
 .list_main_nav li{
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5.5%;
   padding-bottom: 20px;
   font-size: 14px;
   list-style:none;
@@ -141,7 +145,7 @@ display: none;
 }
 .container_col{
   margin: 0 auto;
-  width: 96%;
+  width: 94%;
 }
 .container_three_column ul{
   overflow: hidden;
@@ -186,7 +190,7 @@ display: none;
 }
 
 .research{
-  width: 96%;
+  width: 94%;
   overflow:hidden;
   margin: 0 auto;
 }
@@ -223,7 +227,7 @@ display: none;
 /* Events */
 .container_event{
   margin: 0 auto;
-  width: 96%;
+  width: 94%;
 }
 .eve_img{
   float: left;
@@ -268,6 +272,9 @@ display: none;
   width: 100%;
   position: relative;
   margin: auto;
+  overflow: hidden;
+  max-height: 400px;
+  margin-bottom: 30px;
 }
 .slideshow-container img{
   width: 100%;
@@ -296,7 +303,7 @@ display: none;
 }
 
 .text p{
-  width: 70%;
+  width: 90%;
   padding-right: 20px;
   color: white;
   font-size: 14px;
@@ -381,7 +388,7 @@ display: none;
   background-color: #098bc4;
   font-size: 20px;
   color:#098bc4;
-  padding-left: calc(50% - 380px /2);
+  padding-left: calc(50% - 350px /2);
   font-weight: normal;
   letter-spacing: 1px;
 }
